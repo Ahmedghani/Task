@@ -55,7 +55,7 @@ Resources:
           DBName: !Ref DBName
           Region: !Ref Region
       Code:
-        S3Bucket: mylambdafunctions001
+        S3Bucket: mylambdafunctions002
         S3Key: Generatetoken.zip
 
   ValidateTokenFunction:
@@ -70,7 +70,7 @@ Resources:
           DBName: !Ref DBName
           Region: !Ref Region
       Code:
-        S3Bucket: mylambdafunctions001
+        S3Bucket: mylambdafunctions002
         S3Key: Validatetoken.zip
 
   GenerateTokenAPI:

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUCKET_NAME="mylambdafunctions001"
+BUCKET_NAME="mylambdafunctions002"
 REGION="us-east-1"
 ZIP_FILES=("Generatetoken.zip" "Validatetoken.zip")
 DIRECTORIES=("generate-token" "validate-token")
